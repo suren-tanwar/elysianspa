@@ -1,0 +1,134 @@
+#footer {
+    background: #222831;
+    padding: 60px 0 40px;
+  }
+  #footer .section-title {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  #footer .contact-info {
+    margin: 0 0 60px 0;
+    padding: 0;
+  }
+  #footer .contact-info li {
+    list-style: none;
+    margin: 0 0 20px 0;
+    position: relative;
+    padding-left: 40px;
+  }
+  #footer .contact-info li i {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  #footer .contact-info li a {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  #footer .contact-form .form-group input[type="name"],
+  #footer .contact-form .form-group input[type="text"],
+  #footer .contact-form .form-group input[type="email"],
+  #footer .contact-form .form-group textarea {
+    font-size: 16px;
+  }
+  #footer .contact-form .form-group input[type="name"]::-webkit-input-placeholder,
+  #footer .contact-form .form-group input[type="text"]::-webkit-input-placeholder,
+  #footer .contact-form .form-group input[type="email"]::-webkit-input-placeholder,
+  #footer .contact-form .form-group textarea::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  #footer .contact-form .form-group input[type="name"]:-moz-placeholder,
+  #footer .contact-form .form-group input[type="text"]:-moz-placeholder,
+  #footer .contact-form .form-group input[type="email"]:-moz-placeholder,
+  #footer .contact-form .form-group textarea:-moz-placeholder {
+    /* Firefox 18- */
+    color: rgba(255, 255, 255, 0.5);
+  }
+  #footer .contact-form .form-group input[type="name"]::-moz-placeholder,
+  #footer .contact-form .form-group input[type="text"]::-moz-placeholder,
+  #footer .contact-form .form-group input[type="email"]::-moz-placeholder,
+  #footer .contact-form .form-group textarea::-moz-placeholder {
+    /* Firefox 19+ */
+    color: rgba(255, 255, 255, 0.5);
+  }
+  #footer .contact-form .form-group input[type="name"]:-ms-input-placeholder,
+  #footer .contact-form .form-group input[type="text"]:-ms-input-placeholder,
+  #footer .contact-form .form-group input[type="email"]:-ms-input-placeholder,
+  #footer .contact-form .form-group textarea:-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  #footer .contact-form .form-group input {
+    color: rgba(255, 255, 255, 0.5);
+    background: transparent;
+    border: none;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: none;
+  }
+  #footer .contact-form .form-group textarea {
+    color: rgba(255, 255, 255, 0.5);
+    background: transparent;
+    border: none;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: none;
+  }
+  #footer #btn-submit {
+    color: rgba(255, 255, 255, 0.9) !important;
+    background: #4CB648 !important;
+  }
+  #footer .copy-right {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 50px;
+  }
+  #footer .copy-right p {
+    color: rgba(255, 255, 255, 0.3);
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  #footer .copy-right p a {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .fh5co-social-icons > a {
+    padding: 4px 10px;
+    color: #4CB648;
+  }
+  .fh5co-social-icons > a i {
+    font-size: 26px;
+  }
+  .fh5co-social-icons > a:hover, .fh5co-social-icons > a:focus, .fh5co-social-icons > a:active {
+    text-decoration: none;
+    color: #212121;
+  }
+  
+.btn {
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  .btn {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .btn.btn-primary {
+    background: #4CB648;
+    color: #fff;
+    border: none !important;
+    border: 2px solid transparent !important;
+  }
+  .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
+    box-shadow: none;
+    background: #4CB648;
+    color: #fff !important;
+  }
+  .btn:hover, .btn:active, .btn:focus {
+    background: #393e46 !important;
+    color: #fff !important;
+    outline: none !important;
+  }
+  .btn.btn-default:hover, .btn.btn-default:focus, .btn.btn-default:active {
+    border-color: transparent;
+  }

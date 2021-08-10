@@ -1,0 +1,61 @@
+.contactus-heading {
+    background-image: url("../images/home-image-3.jpg");
+    background-size: cover;
+    /* background-position: center center;
+    background-attachment: fixed; */
+     width: 100%;
+    height: 450px;
+    background-size: 100% 700px;
+    text-align: center;
+  }
+  .contact{
+    -webkit-animation: AAnimation 20s;
+    color: white;
+  font-size: 75px;
+    opacity: 1;
+  }
+  @keyframes AAnimation {
+    0% {
+      opacity: 0;
+      transform: translateY(20%);
+    }
+  
+    8% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+
+
+  
+.contact-message-box {
+    border-radius: 20px;
+    height: 95px;
+    width: 283px;
+    margin: 10px 10px;
+  }
+  
+  /* .enquiry-box input[type="text"] {
+    width: 95%;
+  } */
+  
+  .message-box textarea {
+    border-radius: 20px;
+  }
+  
+  .contact-message-box:hover {
+    border-color: orange;
+  }
+  .message-box textarea:hover {
+    border-color: orange;
+  }
+  /* float: right; */
+  /* button {
+    margin: 10px;
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    background-color: orange;
+    color: white;
+  } */

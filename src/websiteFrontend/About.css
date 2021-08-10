@@ -1,0 +1,29 @@
+
+  .about-heading {
+    background-image: url("../images/home-image-3.jpg");
+    background-size: cover;
+    /* background-position: center center;
+    background-attachment: fixed; */
+     width: 100%;
+    height: 450px;
+    background-size: 100% 700px;
+    text-align: center;
+  }
+  .about{
+    -webkit-animation: AAnimation 20s;
+    color: white;
+  font-size: 75px;
+    opacity: 1;
+  }
+  @keyframes AAnimation {
+    0% {
+      opacity: 0;
+      transform: translateY(20%);
+    }
+  
+    8% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+

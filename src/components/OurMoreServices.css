@@ -1,0 +1,66 @@
+
+
+   .aana-or {
+    -webkit-animation: AAnimation 20s;
+    font-size: 25px;
+    opacity: 1;
+  }
+  
+  @keyframes AAnimation {
+    0% {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+  
+    8% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  
+.subpage-rul {
+    list-style: none;
+    border: 1px solid #ddd;
+    margin: 0;
+    padding: 0;
+    width: 99.99%;
+    float: left;
+    text-decoration: none;
+  
+}
+.subpage-rul li {
+    list-style: none;
+    width: 33.333333%;
+    border: 1px solid #ddd;
+    display: block;
+    float: left;
+    text-decoration: none;
+  
+}
+.subpage-rul li:hover {
+background:#f3f3f3;
+}
+
+.subpage-rul li a {
+    display: block;
+    padding: 5px 10px;
+	font-size:14px;
+	color:#848484;
+	font-weight:400;
+  text-decoration: none;
+}
+.samweb-icon {
+    display: inline-table;
+    height: 40px;
+    overflow: hidden;
+    padding: 5px;
+    width: 40px;
+    text-decoration: none;
+  }
+
+.samweb-icon img {
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+  
+}

@@ -1,0 +1,29 @@
+.balinese-heading {
+    background-image: url("../images/99.jpg");
+    background-size: cover;
+    /* background-position: center center;
+    background-attachment: fixed; */
+   
+    width: 100%;
+    height: 470px;
+    background-size: 100% 500px;
+    
+  }
+
+  .balinese{
+    -webkit-animation: AAnimation 20s;
+    color: white;
+  font-size: 75px;
+    opacity: 1;
+  }
+  @keyframes AAnimation {
+    0% {
+      opacity: 0;
+      transform: translateY(20%);
+    }
+  
+    8% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
